@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 70661fabecdfe58489d0e1795158f913
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - CutterPrefab: {fileID: 1375870210415476, guid: 233a5de7e1188fa49a1a25fda357df81,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

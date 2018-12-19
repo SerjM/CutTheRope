@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1682615810220402}
+  m_IsPrefabAsset: 1
+--- !u!1 &1682615810220402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4268811715866208}
+  - component: {fileID: 114914911151999578}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4268811715866208
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1682615810220402}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6344713, y: 1.564266, z: -0.08814295}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114914911151999578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1682615810220402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1bff4cdc8f0ca64f9d4115480a9bb66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sounds:
+  - name: Star pick up
+    clip: {fileID: 8300000, guid: d759b3111bb9ffe49a4d0086d8a72b28, type: 3}
+    pitch: 1
+    volume: 1
+    looping: 0
+    Source: {fileID: 0}
+  - name: Cut
+    clip: {fileID: 8300000, guid: 5e1382e6956f25c4c8294b12c0134f8a, type: 3}
+    pitch: 1
+    volume: 1
+    looping: 0
+    Source: {fileID: 0}
+  - name: Eat
+    clip: {fileID: 8300000, guid: d759b3111bb9ffe49a4d0086d8a72b28, type: 3}
+    pitch: 1
+    volume: 0.5
+    looping: 0
+    Source: {fileID: 0}
+  - name: Bubble pop
+    clip: {fileID: 8300000, guid: d759b3111bb9ffe49a4d0086d8a72b28, type: 3}
+    pitch: 0.8
+    volume: 1
+    looping: 0
+    Source: {fileID: 0}
+  - name: Auto rope attach
+    clip: {fileID: 8300000, guid: 402c11c8874d0c9429537a676fde7d06, type: 3}
+    pitch: 1
+    volume: 1
+    looping: 0
+    Source: {fileID: 0}
+  - name: Lose
+    clip: {fileID: 8300000, guid: 2ddd4afb13a7d3946a7587eedd9ab2d7, type: 3}
+    pitch: 1
+    volume: 1
+    looping: 0
+    Source: {fileID: 0}
+  Musics: []
+  MusicVolume: 0
+  SfxVolume: 0.5
+  PrototypeBackgroundMusic: {fileID: 8300000, guid: 38f77e74fd4aead4c925e387e8c7cf7e,
+    type: 3}
